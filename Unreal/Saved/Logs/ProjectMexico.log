@@ -5436,3 +5436,14 @@ Scale3D: 1.000000 1.000000 1.000000
 [2023.10.13-13.14.03:237][ 33]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PolygonWesternFrontier/Meshes/Vehicles/SK_Veh_Wagon_Auto4
 [2023.10.13-13.14.03:237][ 33]LogSavePackage: Moving '../../../../../../Users/c_Bidard/Documents/GitHub/projectMexico/Unreal/Saved/SK_Veh_Wagon_Auto4DC2D36394851ADDCAD8B70BBFA81DD07.tmp' to '../../../../../../Users/c_Bidard/Documents/GitHub/projectMexico/Unreal/Saved/Autosaves/Game/PolygonWesternFrontier/Meshes/Vehicles/SK_Veh_Wagon_Auto4.uasset'
 [2023.10.13-13.14.03:238][ 33]LogFileHelpers: Auto-saving content packages took 0.006
+[2023.10.13-13.14.47:060][347]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-13.14.47:142][347]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.10.13-13.14.47:168][347]LogSavePackage: Moving output files for package: /Game/RGD/LD/Map/Level2
+[2023.10.13-13.14.47:168][347]LogSavePackage: Moving '../../../../../../Users/c_Bidard/Documents/GitHub/projectMexico/Unreal/Saved/Level2C3BB3D8D4D0AD0BD82AF88A86C376526.tmp' to '../../../../../../Users/c_Bidard/Documents/GitHub/projectMexico/Unreal/Content/RGD/LD/Map/Level2.umap'
+[2023.10.13-13.14.47:171][347]LogFileHelpers: Saving map 'Level2' took 0.052
+[2023.10.13-13.14.47:177][347]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 33.4 sec)
+[2023.10.13-13.14.47:183][347]AssetCheck: New page: Asset Save: Level2
+[2023.10.13-13.14.47:183][347]LogContentValidation: Display: Validating /Script/Engine.World /Game/RGD/LD/Map/Level2.Level2
+[2023.10.13-13.14.53:358][533]Cmd: r.ResetRenderTargetsExtent
+[2023.10.13-13.14.53:358][533]Scene texture extent history reset. Next scene render will reallocate textures at the requested size.
+[2023.10.13-13.14.53:361][533]LogSlate: Window 'High Resolution Screenshot' being destroyed
