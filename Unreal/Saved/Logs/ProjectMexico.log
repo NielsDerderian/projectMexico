@@ -5447,3 +5447,61 @@ Scale3D: 1.000000 1.000000 1.000000
 [2023.10.13-13.14.53:358][533]Cmd: r.ResetRenderTargetsExtent
 [2023.10.13-13.14.53:358][533]Scene texture extent history reset. Next scene render will reallocate textures at the requested size.
 [2023.10.13-13.14.53:361][533]LogSlate: Window 'High Resolution Screenshot' being destroyed
+[2023.10.13-13.15.19:145][ 93]LogSlate: Window 'Message' being destroyed
+[2023.10.13-13.15.19:152][ 93]Message dialog closed, result: Cancel, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/PolygonWesternFrontier/Materials/M_PolygonWesternFrontier_01_A.M_PolygonWesternFrontier_01_A
+(Selecting 'No' will cause all changes to be lost!)
+[2023.10.13-13.15.20:859][145]LogShaderCompilers: Display: ================================================
+[2023.10.13-13.15.20:859][145]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.13-13.15.20:859][145]LogShaderCompilers: Display: Total job queries 496, among them cache hits 70 (14.11%)
+[2023.10.13-13.15.20:859][145]LogShaderCompilers: Display: Tracking 426 distinct input hashes that result in 247 distinct outputs (57.98%)
+[2023.10.13-13.15.20:859][145]LogShaderCompilers: Display: RAM used: 12,50 MiB of 1,60 GiB budget. Usage: 0.76%
+[2023.10.13-13.15.20:859][145]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.13-13.15.20:859][145]LogShaderCompilers: Display: Shaders Compiled: 426
+[2023.10.13-13.15.20:859][145]LogShaderCompilers: Display: Jobs assigned 426, completed 426 (100.00%)
+[2023.10.13-13.15.20:859][145]LogShaderCompilers: Display: Average time worker was idle: 113.29 s
+[2023.10.13-13.15.20:859][145]LogShaderCompilers: Display: Time job spent in pending queue: average 3.62 s, longest 12.17 s
+[2023.10.13-13.15.20:859][145]LogShaderCompilers: Display: Job execution time: average 0.80 s, max 2.00 s
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display: Job life time (pending + execution): average 4.42 s, max 12.78
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 47.85 s
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display: Jobs were issued in 402 batches (only local compilation was used), average 1.06 jobs/batch
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display: Average processing rate: 8.90 jobs/sec
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display: Total thread time: 264,098 s
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display: Total thread preprocess time: 8,933 s
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display: Percentage time preprocessing: 3.38%
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display: Effective parallelization: 5.52 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    8 times, average 0.96 sec, max 1.04 sec, min 0.86 sec)
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight (compiled    8 times, average 0.96 sec, max 1.04 sec, min 0.89 sec)
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display:             TBasePassPSFSelfShadowedVolumetricLightmapPolicy (compiled    8 times, average 0.95 sec, max 1.01 sec, min 0.82 sec)
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    8 times, average 0.91 sec, max 1.03 sec, min 0.80 sec)
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    8 times, average 0.90 sec, max 0.99 sec, min 0.82 sec)
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.20% of total time (compiled   23 times, average 0.71 sec, max 0.97 sec, min 0.51 sec)
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.13% of total time (compiled   29 times, average 0.56 sec, max 0.72 sec, min 0.47 sec)
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.26% of total time (compiled   18 times, average 0.77 sec, max 0.97 sec, min 0.51 sec)
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 3.91% of total time (compiled   12 times, average 0.86 sec, max 1.02 sec, min 0.58 sec)
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 3.84% of total time (compiled   12 times, average 0.85 sec, max 1.00 sec, min 0.54 sec)
+[2023.10.13-13.15.20:860][145]LogShaderCompilers: Display: ================================================
+[2023.10.13-13.15.20:891][146]MaterialEditorStats: Base pass vertex shader: 286 instructions
+[2023.10.13-13.15.20:892][146]MaterialEditorStats: Texture samplers: 5/16
+[2023.10.13-13.15.20:892][146]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.13-13.15.20:892][146]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.13-13.15.20:892][146]MaterialEditorStats: Shader Count: 4
+[2023.10.13-13.15.21:891][176]LogMaterialEditor: Saving and Compiling material M_PolygonWesternFrontier_01_A
+[2023.10.13-13.15.21:981][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.10.13-13.15.22:183][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.10.13-13.15.22:191][176]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-13.15.22:362][176]LogSavePackage: Moving output files for package: /Game/PolygonWesternFrontier/Materials/M_PolygonWesternFrontier_01_A
+[2023.10.13-13.15.22:363][176]LogSavePackage: Moving '../../../../../../Users/c_Bidard/Documents/GitHub/projectMexico/Unreal/Saved/M_PolygonWesternFrontier_01_A57C8033B49724B9F4EE8E7B52D14A807.tmp' to '../../../../../../Users/c_Bidard/Documents/GitHub/projectMexico/Unreal/Content/PolygonWesternFrontier/Materials/M_PolygonWesternFrontier_01_A.uasset'
+[2023.10.13-13.15.22:369][176]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 33.6 sec)
+[2023.10.13-13.15.22:373][176]AssetCheck: New page: Asset Save: M_PolygonWesternFrontier_01_A
+[2023.10.13-13.15.22:373][176]LogContentValidation: Display: Validating /Script/Engine.Material /Game/PolygonWesternFrontier/Materials/M_PolygonWesternFrontier_01_A.M_PolygonWesternFrontier_01_A
+[2023.10.13-13.15.22:374][176]MaterialEditorStats: Base pass shader: 979 instructions
+[2023.10.13-13.15.22:374][176]MaterialEditorStats: Base pass shader with Surface Lightmap: 1019 instructions
+[2023.10.13-13.15.22:374][176]MaterialEditorStats: Base pass vertex shader: 286 instructions
+[2023.10.13-13.15.22:374][176]MaterialEditorStats: Base pass vertex shader: 425 instructions
+[2023.10.13-13.15.22:374][176]MaterialEditorStats: Texture samplers: 6/16
+[2023.10.13-13.15.22:374][176]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.13-13.15.22:374][176]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.13-13.15.22:374][176]MaterialEditorStats: Shader Count: 122
